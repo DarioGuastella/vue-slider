@@ -14,14 +14,14 @@
     <div id="app">
         <div class="wrapper">
             <div class="imgBox">
-                <img v-for="(path, i) in slides" :src="slides[counter].immagine" class="unvisible"
+                <img v-for="(path, i) in slides" :src="slides[i].immagine" class="unvisible"
                     :class="{ visible: (i == counter) }">
                 <span v-for="(path, i) in slides" class="unvisible imageIndex" :class="{ visible: (i == counter) }">{{i+1}}</span>
             </div>
             <h1 v-for="(path, i) in slides" class="unvisible" :class="{ visible: (i == counter) }">
-                {{slides[counter].titolo}}</h1>
+                {{slides[i].titolo}}</h1>
             <p v-for="(path, i) in slides" class="unvisible" :class="{ visible: (i == counter) }">
-                {{slides[counter].testo}}</p>
+                {{slides[i].testo}}</p>
             <button @click="nextImg()" class="upBtn"><i class="fa-solid fa-angle-up"></i></button>
             <button @click="previousImg()" class="downBtn"><i class="fa-solid fa-angle-down"></i></button>
         </div>
