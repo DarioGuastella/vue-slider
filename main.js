@@ -1,6 +1,4 @@
 const { createApp } = Vue
-
-
 createApp({
     data() {
       return {
@@ -50,4 +48,4 @@ createApp({
     
   }}).mount('#app')
 
-  
+  //Immagine, titolo e testo sono racchiusi in una card, uno sotto l’altro, e avranno un numero che parte da 1 e si incrementa man mano in un angolo della slide
