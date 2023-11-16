@@ -40,6 +40,13 @@ createApp({
             } else {
                 this.counter = 0;
             }
+        },
+        autoplay(){
+            timer = setInterval(this.nextImg, 3000);
+
+        },
+        stopAutoplay(){
+            clearInterval(timer);
         }
     
   }}).mount('#app')
