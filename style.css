@@ -38,3 +38,11 @@ body {
     border-radius: 50%;
     
 }
+
+.unvisible {
+    display: none;
+}
+
+.visible {
+    display: block;
+}

@@ -20,14 +20,34 @@ createApp({
                 titolo: 'Campi verdi',
                 descrizione: 'Vaste distese di campi verdi che si estendono all\'orizzonte.'
             }
-        ]
+        ],
+        counter: 0
       }      
     },
+    methods: {
+        previousImg() {
+            let ultimaImg = this.slides.length-1;
+
+            if(this.counter > 0) {
+                this.counter--;
+            } else {
+                this.counter = ultimaImg;
+            }
+        },
+        nextImg() {
+            let ultimaImg = this.slides.length-1;
+
+            if(this.counter < ultimaImg) {
+                this.counter++;
+            } else {
+                this.counter = 0;
+            }
+        },
     mounted() {
         console.log(this.slides);
         
     }
     
-  }).mount('#app')
+  }}).mount('#app')
 
   
