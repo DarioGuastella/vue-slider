@@ -40,11 +40,7 @@ createApp({
             } else {
                 this.counter = 0;
             }
-        },
-    mounted() {
-        console.log(this.slides);
-        
-    }
+        }
     
   }}).mount('#app')
 
