@@ -27,6 +27,13 @@ body {
     object-position: center;
 }
 
+.imageIndex {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    font-size: 3rem;
+}
+
 .upBtn {
     margin: 1rem;
     padding: 0.5rem;
