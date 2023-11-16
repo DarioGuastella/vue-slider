@@ -32,6 +32,8 @@ body {
     right: 2rem;
     bottom: 2rem;
     font-size: 3rem;
+    background-color: orange;
+    padding: 0.5rem;
 }
 
 .upBtn {
