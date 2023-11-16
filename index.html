@@ -16,6 +16,7 @@
             <div class="imgBox">
                 <img v-for="(path, i) in slides" :src="slides[counter].immagine" class="unvisible"
                     :class="{ visible: (i == counter) }">
+                <span v-for="(path, i) in slides" class="unvisible imageIndex" :class="{ visible: (i == counter) }">{{i+1}}</span>
             </div>
             <h1 v-for="(path, i) in slides" class="unvisible" :class="{ visible: (i == counter) }">
                 {{slides[counter].titolo}}</h1>
