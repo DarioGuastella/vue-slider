@@ -4,19 +4,19 @@ createApp({
       return {
         slides: [
             {
-                immagine: 'https://img.freepik.com/free-photo/sunset-time-tropical-beach-sea-with-coconut-palm-tree_74190-1075.jpg',
-                titolo: 'Tramonto sulla spiaggia',
-                descrizione: 'Un meraviglioso tramonto con colori caldi che si riflettono sull\'acqua.'
+                immagine: 'https://img.freepik.com/free-vector/welcome-pattern-different-languages_23-2147870141.jpg',
+                titolo: 'Benvenuti nel nostro sito',
+                testo: 'Esplora la nostra vasta gamma di prodotti e scopri offerte speciali.'
             },
             {
-                immagine: 'https://img.freepik.com/free-photo/beautiful-shot-mountains-trees-covered-snow-fog_181624-17590.jpg',
-                titolo: 'Montagne innevate',
-                descrizione: 'Un panorama mozzafiato delle montagne coperte di neve.'
+                immagine: 'https://img.freepik.com/free-vector/spring-sale-instagram-post_23-2148849921.jpg',
+                titolo: 'Nuova collezione primavera',
+                testo: 'Scopri le ultime tendenze della moda con la nostra collezione primavera.'
             },
             {
-                immagine: 'https://img.freepik.com/free-photo/countryside-field-sunny-day-countryside_181624-24010.jpg',
-                titolo: 'Campi verdi',
-                descrizione: 'Vaste distese di campi verdi che si estendono all\'orizzonte.'
+                immagine: 'https://img.freepik.com/free-vector/special-offer-modern-sale-banner-template_1017-20667.jpg',
+                titolo: 'Offerte speciali',
+                testo: 'Approfitta delle nostre offerte speciali. Sconti incredibili solo per te!'
             }
         ],
         counter: 0

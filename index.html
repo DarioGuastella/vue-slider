@@ -21,7 +21,7 @@
             <h1 v-for="(path, i) in slides" class="unvisible" :class="{ visible: (i == counter) }">
                 {{slides[counter].titolo}}</h1>
             <p v-for="(path, i) in slides" class="unvisible" :class="{ visible: (i == counter) }">
-                {{slides[counter].descrizione}}</p>
+                {{slides[counter].testo}}</p>
             <button @click="nextImg()" class="upBtn"><i class="fa-solid fa-angle-up"></i></button>
             <button @click="previousImg()" class="downBtn"><i class="fa-solid fa-angle-down"></i></button>
         </div>
